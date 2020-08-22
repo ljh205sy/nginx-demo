@@ -14,7 +14,7 @@ nginx的静态页面代理：
 | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | uri最后带斜杠 | location /22/ {  root test;  index index.html index.htm; }   | http://127.0.0.1:9999/22/ 访问成功 test/22/index.html        | [http://127.0.0.1:9999/22](http://127.0.0.1:9999/22/) 访问失败404 |
 
-![img](file:///D:/liujinhui/weizhi/temp/140870d1-8d2d-4528-bc9d-c80532223ead/128/index_files/f4098e0d-b0e2-4c31-8bf3-c206848a018f.png)   ![img](file:///D:/liujinhui/weizhi/temp/140870d1-8d2d-4528-bc9d-c80532223ead/128/index_files/f9a0c1f4-16d3-496e-8ce6-b2ffad2c8212.png)
+
 
 
 
@@ -24,7 +24,7 @@ nginx的静态页面代理：
 
 **假设下面四种情况分别用 http://192.168.1.1/proxy/test.html 进行访问。\**location一定带斜杠，proxy_pass可以不带\****
 
-![img](file:///D:/liujinhui/weizhi/temp/140870d1-8d2d-4528-bc9d-c80532223ead/128/index_files/76079351-53aa-4aec-9236-50e24228f2fd.png)
+
 
 ```shell
  server {
