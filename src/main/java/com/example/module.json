@@ -1,0 +1,330 @@
+{
+  "name": "态势感知平台（安管+安审）",
+  "profile": "vap",
+  "type": "items",
+  "version": "1.0",
+  "useage": "install",
+  "toolversion": "1.2.2",
+  "desc": "态势感知平台",
+  "items": [
+    {
+      "name": "hardware",
+      "type": "base",
+      "version": "1.1.1",
+      "desc": "硬件化服务"
+    },
+	{
+      "name": "base",
+      "type": "base",
+      "version": "1.3",
+      "desc": "linux硬件服务"
+    },
+	{
+      "name": "jdk",
+      "type": "base",
+      "version": "1.8",
+      "desc": "JDK版本"
+    },
+	{
+      "name": "mysql",
+      "type": "base",
+      "version": "5.7.26",
+      "desc": "MYSQL版本"
+    },
+    {
+      "name": "ports",
+      "type": "base",
+      "version":"1.0",
+      "desc": "端口开放规则"
+    },
+	{
+      "name": "skywalkingServer",
+      "desc": "监控服务",
+      "type": "base",
+      "version": "1.0.5",
+      "desc": "skywalking性能数据服务器端"
+    },
+	{
+      "name": "skywalkingAgent",
+      "type": "base",
+      "version": "1.0",
+      "desc": "skywalking性能数据客户端"
+    },
+	{
+      "name": "server",
+      "type": "base",
+      "version": "1.0.1",
+      "desc": "服务器服务监控"
+    },
+    {
+      "name": "agent",
+      "type": "base",
+      "version": "1.0.1",
+      "desc": "客户端占用性能占用监控"
+    },
+    {
+      "name": "elasticsearch",
+      "type": "base",
+      "version": "1.1.1",
+      "desc": "elasticserach版本"
+    },
+    {
+      "name": "db",
+      "type": "base",
+      "version": "1.1.6",
+      "desc": "数据库内置数据版本"
+    },
+    {
+      "name": "nacos",
+      "type": "base",
+      "version": "1.0.1",
+      "desc": "注册与配置中心"
+    },
+    {
+      "name": "nginx",
+      "type": "base",
+      "version": "1.1",
+      "desc": "nginx反向代理版本"
+    },
+    {
+      "name": "redis",
+      "type": "base",
+      "version": "1.2",
+      "desc": "redis需要密码版本"
+    },
+    {
+      "name": "rabbit",
+      "type": "base",
+      "version": "1.0.1",
+      "desc": "mq消息中间件版本"
+    },
+    {
+      "name": "syscrond",
+      "desc": "定时任务",
+      "type": "base",
+      "version": "1.0",
+      "desc": "系统定时任务版本"
+    },
+	{
+      "name": "flume",
+      "type": "base",
+      "version": "1.0",
+      "desc": "采集器版本"
+    },
+	 {
+      "name": "zookeeper",
+      "type": "base",
+      "version": "1.0",
+      "desc": "分布式协调服务版本"
+    },
+    {
+      "name": "cboard",
+      "type": "base",
+      "version": "1.0.1",
+      "desc": "报表版本"
+    },
+	{
+      "name": "kafka",
+      "type": "base",
+      "version": "1.0",
+      "desc": "分布式消息队列"
+    },
+    {
+      "name": "flink",
+      "type": "base",
+      "version": "1.0",
+      "desc": "流引擎分析版本"
+    },
+    {
+      "name": "nac",
+      "type": "base",
+      "version": "1.0",
+      "desc": "nac版本"
+    },
+    {
+      "name": "nmap",
+      "type": "base",
+      "version": "1.0",
+      "desc": "nmap资产扫描版本"
+    },
+   
+    {
+      "name": "api-admin",
+      "desc": "综合管理服务",
+      "type": "jar",
+      "version": "2.2-SNAPSHOT"
+    },
+	{
+      "name": "portal",
+      "desc": "前端portal版本",
+      "type": "app",
+      "version": "1.0.8"
+    },
+    {
+      "name": "server-sys",
+      "desc": "邮件服务、上传服务、日志审计服务、",
+      "type": "jar",
+      "version": "2.2-SNAPSHOT"
+    },   
+    {
+      "name": "server-zuul",
+      "desc": "服务网关",
+      "type": "jar",
+      "version": "2.2-SNAPSHOT"
+    },
+	{
+      "name": "hardware",
+      "type": "app",
+      "version": "1.1-SNAPSHOT",
+      "desc": "硬件化前端版本"
+    },
+	{
+      "name": "flow",
+      "type": "app",
+      "version": "1.1-SNAPSHOT",
+      "desc": "工单前端服务"
+    },
+	{
+      "name": "api-flow",
+      "type": "jar",
+      "version": "2.1-SNAPSHOT",
+      "desc": "工单后端服务"
+    },
+	{
+      "name": "knowledge",
+      "type": "app",
+      "version": "1.1-SNAPSHOT",
+      "desc": "知识库前端服务"
+    },
+	{
+      "name": "api-knowledge",
+      "type": "jar",
+      "version": "2.1-SNAPSHOT",
+      "desc": "知识库后端服务"
+    },
+	{
+      "name": "report",
+      "type": "app",
+      "version": "1.0",
+      "desc": "报表服务"
+    },
+    {
+      "name": "api-report",
+      "type": "jar",
+      "version": "2.1-SNAPSHOT",
+      "desc": "报表后台服务"
+    },
+    {
+      "name": "risk",
+      "type": "app",
+      "version": "1.1-SNAPSHOT",
+      "desc": "资产风险前端服务"
+    },
+    {
+      "name": "api-risk",
+      "type": "jar",
+      "version": "2.1-SNAPSHOT",
+      "desc": "资产风险后端服务"
+    },
+	{
+      "name": "weak",
+      "type": "app",
+      "version": "1.1-SNAPSHOT",
+      "desc": "弱点前端服务"
+    },
+	{
+      "name": "api-weak",
+      "type": "jar",
+      "version": "2.1-SNAPSHOT",
+      "desc": "弱点后端服务"
+    },
+	{
+      "name": "alarmdeal",
+      "type": "app",
+      "version": "1.1-SNAPSHOT",
+      "desc": "告警前端服务"
+    },
+	{
+      "name": "api-alarmdeal",
+      "type": "jar",
+      "version": "2.3-SNAPSHOT",
+      "desc": "告警后端服务"
+    },
+	
+	{
+      "name": "api-rule",
+      "type": "tool",
+      "version": "2.1-SNAPSHOT",
+      "desc": "告警规则后端设置"
+    },
+	{
+      "name": "asset",
+      "type": "app",
+      "version": "1.2-SNAPSHOT",
+      "desc": "资产前端服务"
+    },
+	{
+      "name": "api-asset",
+      "type": "jar",
+      "version": "2.1-SNAPSHOT",
+      "desc": "资产后端服务"
+    },
+	{
+      "name": "search",
+      "type": "app",
+      "version": "1.0.2",
+      "desc": "搜索前端服务"
+    },
+	{
+      "name": "api-search",
+      "type": "jar",
+      "version": "2.2-SNAPSHOT",
+      "desc": "搜索后端服务"
+    },
+    {
+      "name": "api-oa",
+      "type": "jar",
+      "version": "2.1-SNAPSHOT",
+      "desc": "oa工作台后端服务"
+    },
+	{
+      "name": "audit",
+      "type": "app",
+      "version": "1.0.2",
+      "desc": "态势感知前端服务"
+    },
+	{
+      "name": "api-audit-business",
+      "desc": "api-audit-business后台服务",
+      "type": "jar",
+      "version": "2.1-SNAPSHOT"
+    },
+	{
+      "name": "api-audit-bigdata",
+      "type": "jar",
+      "version": "2.1-SNAPSHOT",
+      "desc": "api-audit-bigdata后台服务"
+    },
+	{
+      "name": "api-audit-es",
+      "type": "jar",
+      "version": "2.1-SNAPSHOT",
+      "desc": "api-audit-es后台服务"
+    },
+	
+    {
+      "name": "api-audit-schedular",
+      "desc": "api-audit-business后台服务",
+      "type": "jar",
+      "version": "2.1-SNAPSHOT"
+    },
+    {
+      "name": "dbback",
+      "type": "base",
+      "version": "1.0",
+      "desc": "数据库备份服务"
+    }
+  ]
+}
+
+
