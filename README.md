@@ -10,13 +10,13 @@ nginx的静态页面代理：
 
 对比访问请求，直接跳转到页面， **location可以带斜杠有可以不带斜杠**
 
-| uri不带斜杠   | location /11 {   root test;   index index.html index.htm;  } | URI：http://127.0.0.1:9999/11/ 访问成功 目录：test/11/index.html | [http://127.0.0.1:9999/11](http://127.0.0.1:9999/11/) 访问成功，会自动跳转到 http://127.0.0.1:9999/11/ 目录：test/11/index.html |
+| uri不带斜杠   | location /11  {     root test;             index index.html index.htm;       } | URI：http://127.0.0.1:9999/11/ 访问成功 目录：test/11/index.html | [http://127.0.0.1:9999/11](http://127.0.0.1:9999/11/) 访问成功，会自动跳转到 http://127.0.0.1:9999/11/ 目录：test/11/index.html |
 | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | uri最后带斜杠 | location /22/ {  root test;  index index.html index.htm; }   | http://127.0.0.1:9999/22/ 访问成功 test/22/index.html        | [http://127.0.0.1:9999/22](http://127.0.0.1:9999/22/) 访问失败404 |
 
+![img](file:./1.png)
 
-
-
+[[对比图\]:]: https://github.com/ljh205sy/nginx-demo/blob/master/1.png	" dddd"
 
 本地测试nginx的使用及反向代理结论：
 
